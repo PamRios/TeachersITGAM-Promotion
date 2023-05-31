@@ -1,0 +1,24 @@
+{{!-- <h1>Creando el proyecto</h1> --}}
+<div class="row center  blue-grey darken-3" style="margin: 1em; padding: 2em; border-radius: 1em">
+    <h2>Verificación de cuenta</h2>
+    <p>
+        Para completar tu registro a la plataforma, escribe el código que hemos enviado a
+        tu correo.
+    </p>
+    <form autocomplete="off" method="post">
+        <div class="card-content">
+            <div class='input-field'>
+                <label for='user-name'>CÓDIGO</label>
+                <input placeholder="Escribe el código aquí" id='project-name' name='name' type='text'
+                    class="validate" />
+                <a href="/profile/showProfile" class="waves-effect blue-grey btn-small">
+                    <i class="material-icons left">done</i>
+                    Verificar
+                </a>
+                <br><br>
+                <p>
+                    ¿No recibiste un código?
+                </p>
+                <a href="/project/add">Envialo de nuevo</a>
+            </div>
+        </div>

@@ -1,0 +1,69 @@
+<div class="row center  blue-grey darken-3" style="margin: 1em; padding: 2em; border-radius: 1em">
+  <h2>Solicitud de Promoción</h2>
+  <p>Para completar está solicitud se necesitan documentos comprobatorios, asegurate de tenerlos a mano y escaneados,
+    debes subir un archivo segun el criterio que se solicite. Para evitar cualquier tipo de alteración
+    en tu documento asgurate de cargarlo en formato PDF<br>
+    ¡Mucho exito!
+  </p>
+  <div>
+    <form autocomplete="off" action="/project/add" method="post">
+      <div class="card-content">
+        <div class='input-field'>
+          <label for='user-name'>Nombre(s)</label>
+          <input placeholder="Pedro Rivera García" id='USER-name' name='name' type='text' class="validate" />
+        </div>
+        <div class='input-field'>
+          <label for='user-RFC'>RFC</label>
+          <input placeholder="RIGP000900KIN" id='project-name' name='rfc' type='text' class="validate" />
+        </div>
+        <div class='input-field'>
+          <label for='user-CURP'>CURP</label>
+          <input placeholder="RIGP0000900HHRC870" id='project-name' name='curp' type='text' class="validate" />
+        </div>
+        <div class='input-field'>
+          <label for='user-centerWork'>Centro de trabajo</label>
+          <input placeholder="Instituto Tecnológico de..." id='project-name' name='centroT' type='text'
+            class="validate" />
+        </div>
+        <div class='input-field'>
+          <label for='user-e-mail'>CCT</label>
+          <input placeholder="INT98765" id='project-name' name='email' type='text' class="validate" />
+        </div>
+        <div class='input-field'>
+          <label for='user-entidad'>Entidad Federativa</label>
+          <input placeholder="INT98765" id='project-name' name='entidad' type='text' class="validate" />
+        </div>
+        <div class='input-field'>
+          <label for='user-fecha'>Fecha de ingreso al sistema</label>
+          <input placeholder="INT98765" id='project-name' name='fecha' type='date' class="validate" />
+        </div>
+      </div>
+      <div class="card-action">
+        <a class="waves-effect blue-grey btn-small"
+          href="javascript:document.getElementById('obj1').style.display='inline';void 0">Continuar</a>
+      </div>
+    </form>
+    <div id="obj1" style="display: none">
+      <form autocomplete="off" method="post">
+        <div class='row left s6 m5'>
+          <label for='user-entidad'>Titulo</label>
+          <input placeholder="Ingrese el nombre de su profesion" 
+          id='project-name' name='entidad' type='text' class="validate" />
+        </div>
+        <div class='row right s6 m5'>
+          <label for='user-entidad'>Titulo</label>
+          <input type="file" required/>
+        </div>
+        <div class='row left s6 m5'>
+          <label for='user-entidad'></label>
+          <input placeholder="Ingrese el nombre de su profesion" 
+          id='project-name' name='entidad' type='text' class="validate" />
+        </div>
+        <div class='row right s6 m5'>
+          <label for='user-entidad'></label>
+          <input type="file" required/>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
