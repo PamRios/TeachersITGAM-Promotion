@@ -7,12 +7,16 @@ a{
     color: #00B7FF
 }
 
-h1{
-    color: teal;
+h2{
+    color: #eeeeee;
 }
 
 .card-title.add-project {
     color: #000;
     text-shadow: 2px 2px 4px rgb(1, 1, 1);
     font-size: 24px;
+}
+
+p{
+    color: #bdbdbd ;
 }

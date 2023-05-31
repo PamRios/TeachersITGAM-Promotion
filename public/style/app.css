@@ -11,3 +11,9 @@ a{
 h1{
     color: teal;
 }
+
+.card-title.add-project {
+    color: #000;
+    text-shadow: 2px 2px 4px rgb(1, 1, 1);
+    font-size: 24px;
+}
